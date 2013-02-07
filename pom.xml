@@ -89,21 +89,21 @@
         
         <!-- The JDBC Driver used by uPortal -->
         
-        <!-- Driver HSQL à décommenter à la demande -->
+        <!-- HSQL driver. Uncomment if you need to -->
         <!--
         <jdbc.groupId>org.hsqldb</jdbc.groupId>
         <jdbc.artifactId>hsqldb</jdbc.artifactId>
         <jdbc.version>${hsqldb.version}</jdbc.version>
         -->
     
-        <!-- Driver POSTGRESQL à décommenter à la demande -->
+        <!-- POSTGRESQL driver. Uncomment if you need to -->
         <!--
         <jdbc.groupId>postgresql</jdbc.groupId>
         <jdbc.artifactId>postgresql</jdbc.artifactId>
         <jdbc.version>9.0-801.jdbc4</jdbc.version>      
         -->
 
-        <!-- Driver MYSQL à décommenter à la demande -->
+        <!-- MYSQL driver. Uncomment if you need to -->
         <!--
         <jdbc.groupId>mysql</jdbc.groupId>
         <jdbc.artifactId>mysql-connector-java</jdbc.artifactId>

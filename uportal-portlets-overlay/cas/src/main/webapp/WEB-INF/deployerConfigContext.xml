@@ -225,9 +225,9 @@
                 <value>${environment.build.ldap.url}</value>
            </list>
         </property>
-	  <property name="userDn" value="${ldap.userName}"/>
-        <property name="password" value="${ldap.password}"/>
-        <property name="pooled" value="${ldap.pooled}"/>
+	  <property name="userDn" value="${environment.build.ldap.userName}"/>
+        <property name="password" value="${environment.build.ldap.password}"/>
+        <property name="pooled" value="${environment.build.ldap.pooled}"/>
     </bean>
 
 </beans>
